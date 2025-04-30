@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:google_fonts/google_fonts.dart';
 import 'dart:convert';
 
 void main() {
@@ -55,7 +56,7 @@ class _MyAppState extends State<MyApp> {
           title: Center(
             child: Text(
               "Flutter App Example",
-              style: TextStyle(
+              style: GoogleFonts.robotoSerif(
                 fontSize: 30,
                 fontWeight: FontWeight.w800,
                 color: Colors.white,
