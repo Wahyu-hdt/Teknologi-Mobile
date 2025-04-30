@@ -49,6 +49,8 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          toolbarHeight: 80,
+          elevation: 8,
           backgroundColor: Colors.teal,
           title: Center(
             child: Text(
